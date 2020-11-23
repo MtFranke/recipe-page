@@ -1,0 +1,19 @@
+@import "../variables";
+
+h2{
+  color: $grey-1;
+}
+h3{
+  color: $grey-1;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.ingredient{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.grid{
+  width: 65%;
+}

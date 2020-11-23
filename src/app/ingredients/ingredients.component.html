@@ -1,1 +1,15 @@
-<p>ingredients works!</p>
+<section class="grid">
+  <h2>Ingredients</h2>
+  <h3>Graham Cracker Crust</h3>
+  <div *ngFor="let ingredient of grahamCrackerCrustArr">
+    <input type="checkbox">
+    <span [innerHTML]="ingredient" class="ingredient"></span>
+  </div>
+  <h3>Cheesecake</h3>
+  <div *ngFor="let ingredient of cheeseCakeArr">
+    <input type="checkbox">
+    <span [innerHTML]="ingredient" class="ingredient"></span>
+  </div>
+
+</section>
+
