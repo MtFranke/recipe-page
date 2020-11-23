@@ -30,7 +30,8 @@ figure {
 
 header h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 3rem; }
+  font-size: 3rem;
+  margin-bottom: 0; }
 
 header h6 {
   font-family: 'Montserrat', sans-serif;
@@ -42,13 +43,18 @@ header h6 {
   display: inline-block; }
 
 .ellipse {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: 1rem; }
 
 .ellipse > span {
   height: 8px;
-  font-weight: bold;
+  font-weight: bolder;
   color: #C4C4C4; }
+
+.flex {
+  display: flex; }
 
 /*# sourceMappingURL=app.component.css.map */
