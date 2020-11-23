@@ -1,0 +1,23 @@
+.grid{
+  display: grid;
+  grid-template-areas:
+  "banner banner"
+  "ingredients information"
+  "instructions .";
+}
+
+.grid-area--banner{
+  grid-area: banner;
+}
+
+.grid-area--instructions{
+  grid-area: instructions;
+}
+
+.grid-area--ingredients{
+  grid-area: ingredients;
+}
+
+.grid-area--information{
+  grid-area: information;
+}
