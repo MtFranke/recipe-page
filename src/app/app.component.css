@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
 .grid {
   display: grid;
   grid-template-areas: "banner banner" "ingredients information" "instructions ."; }
@@ -25,5 +27,28 @@
 
 figure {
   margin: 0; }
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem; }
+
+header h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: italic;
+  width: 40rem;
+  color: #4F4F4F;
+  display: inline-block; }
+
+.ellipse {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center; }
+
+.ellipse > span {
+  height: 8px;
+  font-weight: bold;
+  color: #C4C4C4; }
 
 /*# sourceMappingURL=app.component.css.map */
