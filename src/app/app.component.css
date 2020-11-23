@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+  grid-template-areas: "banner banner" "ingredients information" "instructions ."; }
+
+.grid-area--banner {
+  grid-area: banner; }
+
+.grid-area--instructions {
+  grid-area: instructions; }
+
+.grid-area--ingredients {
+  grid-area: ingredients; }
+
+.grid-area--information {
+  grid-area: information; }
+
+.cheese-cake--img {
+  background-image: url("../assets/chesscake.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 512px;
+  border-radius: 1rem; }
+
+figure {
+  margin: 0; }
+
+/*# sourceMappingURL=app.component.css.map */
