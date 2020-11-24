@@ -2,7 +2,7 @@
   <h2>Instructions</h2>
   <ul>
     <li *ngFor="let step of instructionArr; let i = index" class="ingredient">
-      <div class="step">{{i+1}}</div>
+      <div class="step"><span>{{i+1}}</span></div>
       <p [innerHTML]="step"></p>
     </li>
   </ul>
