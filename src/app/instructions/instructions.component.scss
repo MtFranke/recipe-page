@@ -35,3 +35,13 @@ p{
   font-size: 1rem;
   font-weight: 300;
 }
+
+.source{
+  color: $grey4;
+  font-size: 0.8rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.source:hover{
+  color: $orange;
+}

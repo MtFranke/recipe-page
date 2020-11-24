@@ -57,4 +57,16 @@ header h6 {
 .flex {
   display: flex; }
 
+small {
+  color: #A9A9A9; }
+
+footer {
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif; }
+
 /*# sourceMappingURL=app.component.css.map */

@@ -74,3 +74,17 @@ header h6{
 .flex{
   display: flex;
 }
+
+small{
+  color: $grey-3;
+}
+
+footer{
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
