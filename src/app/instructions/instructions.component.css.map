@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,KAAK;EACH,KAAK,EAAE,GAAG;;AAGZ,EAAE;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGZ,EAAE;EACA,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,IAAI;;AAGf,KAAK;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,ECfV,OAAO;EDgBb,KAAK,EAAC,KAAK",
+"sources": ["instructions.component.scss","../_variables.scss"],
+"names": [],
+"file": "instructions.component.css"
+}

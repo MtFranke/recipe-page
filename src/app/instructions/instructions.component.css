@@ -1,0 +1,18 @@
+.grid {
+  width: 65%; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none;
+  display: flex; }
+
+.step {
+  width: 2rem;
+  height: 2rem;
+  background-color: #F2994A;
+  color: white; }
+
+/*# sourceMappingURL=instructions.component.css.map */
