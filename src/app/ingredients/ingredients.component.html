@@ -1,15 +1,20 @@
 <section class="grid">
   <h2>Ingredients</h2>
   <h3>Graham Cracker Crust</h3>
-  <div *ngFor="let ingredient of grahamCrackerCrustArr">
-    <input type="checkbox">
-    <span [innerHTML]="ingredient" class="ingredient"></span>
-  </div>
+
+  <ul>
+    <li *ngFor="let ingredient of grahamCrackerCrustArr" class="ingredient">
+      <input type="checkbox">
+      <p [innerHTML]="ingredient"></p>
+    </li>
+  </ul>
   <h3>Cheesecake</h3>
-  <div *ngFor="let ingredient of cheeseCakeArr">
-    <input type="checkbox">
-    <span [innerHTML]="ingredient" class="ingredient"></span>
-  </div>
+  <ul>
+    <li *ngFor="let ingredient of cheeseCakeArr" class="ingredient">
+      <input type="checkbox">
+      <p [innerHTML]="ingredient"></p>
+    </li>
+  </ul>
 
 </section>
 
