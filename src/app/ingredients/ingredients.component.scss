@@ -2,13 +2,15 @@
 
 h2{
   color: $grey-1;
-  font-weight: 500;
   margin: 0 0 1rem 0;
+  font-weight: 300;
+  font-family: 'Playfair Display', serif;
 }
 h3{
   color: $grey-1;
   font-style: italic;
   font-weight: 200;
+  margin: 2rem 0;
 }
 
 .ingredient{

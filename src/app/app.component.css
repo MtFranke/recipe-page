@@ -3,8 +3,8 @@
 .grid {
   display: grid;
   grid-template-areas: "banner banner" "ingredients information" "instructions .";
-  grid-row-gap: 2rem;
-  grid-column-gap: 5rem; }
+  grid-row-gap: 3rem;
+  grid-column-gap: 10rem; }
 
 .grid-area--banner {
   grid-area: banner; }
