@@ -5,6 +5,9 @@
   grid-template-areas: "banner banner" "ingredients information" "instructions .";
   grid-row-gap: 3rem;
   grid-column-gap: 10rem; }
+  @media only screen and (max-width: 600px) {
+    .grid {
+      grid-template-areas: "banner" "information" "ingredients" "instructions"; } }
 
 .grid-area--banner {
   grid-area: banner; }
@@ -34,6 +37,9 @@ header h1 {
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
   margin-bottom: 0; }
+  @media only screen and (max-width: 600px) {
+    header h1 {
+      font-size: 1.8rem; } }
 
 header h6 {
   font-family: 'Montserrat', sans-serif;
