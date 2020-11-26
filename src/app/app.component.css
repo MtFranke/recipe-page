@@ -4,7 +4,7 @@
   display: grid;
   grid-template-areas: "banner banner" "ingredients information" "instructions .";
   grid-row-gap: 3rem;
-  grid-column-gap: 10rem; }
+  grid-column-gap: 8rem; }
   @media only screen and (max-width: 600px) {
     .grid {
       grid-template-areas: "banner" "information" "ingredients" "instructions"; } }

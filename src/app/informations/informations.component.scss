@@ -10,7 +10,7 @@
   display: grid;
   justify-content: center;
   grid-row-gap: 2rem;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 
   @media only screen and (max-width: $small-device) {
     box-shadow: none;

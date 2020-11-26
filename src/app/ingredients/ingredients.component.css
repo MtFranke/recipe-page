@@ -1,0 +1,35 @@
+h2 {
+  color: #333333;
+  margin: 0 0 1rem 0;
+  font-weight: 300;
+  font-family: 'Playfair Display', serif; }
+
+h3 {
+  color: #333333;
+  font-style: italic;
+  font-weight: 200;
+  margin: 2rem 0; }
+
+.ingredient {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300; }
+
+.ingredient--checkbox {
+  display: inline-block; }
+
+ul {
+  padding: 0; }
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  margin: 0.5rem 0; }
+
+input[type=checkbox] {
+  transform: scale(1.3); }
+
+p {
+  margin: 0 0 0 1rem;
+  line-height: 1.2rem; }
+
+/*# sourceMappingURL=ingredients.component.css.map */

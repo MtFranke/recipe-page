@@ -10,7 +10,7 @@
   "ingredients information"
   "instructions .";
   grid-row-gap: 3rem;
-  grid-column-gap: 10rem;
+  grid-column-gap: 8rem;
 
   @media only screen and (max-width: $small-device) {
     grid-template-areas:
