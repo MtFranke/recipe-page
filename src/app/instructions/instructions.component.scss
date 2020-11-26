@@ -28,9 +28,16 @@ li{
   color:white;
   border-radius: 0.5rem;
   font-family: 'Playfair Display', serif;
-  display: flex;
   font-size: 1.6rem;
   font-weight: 300;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+}
+
+.step--number{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
 }
 
 p{
